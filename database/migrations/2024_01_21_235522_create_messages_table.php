@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('messages', function (Blueprint $table) {
             $table->id();
+            $table->string('name_sender');
+            $table->string('mail_sender');
+            $table->text('body');
+            $table->boolean('active')->default(true);
             $table->timestamps();
         });
     }
