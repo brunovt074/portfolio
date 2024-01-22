@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('clients', function (Blueprint $table) {
             $table->id();
+            $table->string('logo_url');
+            $table->string('name');                        
             $table->timestamps();
         });
     }
