@@ -1,0 +1,17 @@
+html{
+
+    min-height: 100%;
+    
+}
+
+body{
+    min-height: 100%;
+    background-color: #581845; 
+
+}
+
+.index-title, .index-subtitle {
+
+    color:white;
+
+}
