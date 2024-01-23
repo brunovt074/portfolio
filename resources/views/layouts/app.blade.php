@@ -12,10 +12,12 @@
     <title>@yield('title')</title>
 </head>
 <body>
-    
+    @section('navbar')
     <header>
 
+
     </header>
+    @endsection
     
     <main>
         <div>
