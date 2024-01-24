@@ -3,7 +3,8 @@ html, body {
   }
 
 body{   
-    background-color: #581845; 
+    background-color: #000;
+    min-height: 100vh; 
 }
 
 .index-title, .index-subtitle {
