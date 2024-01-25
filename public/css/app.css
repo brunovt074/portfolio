@@ -7,8 +7,24 @@ body{
     min-height: 100vh; 
 }
 
+section {
+
+    border: 1px solid red;
+
+}
+
+footer {
+    min-height:10em;
+    border: 1px solid red;
+}
+
 .index-title, .index-subtitle {
 
     color:white;
 
+}
+
+.navbar {
+
+    min-height: 5em;
 }

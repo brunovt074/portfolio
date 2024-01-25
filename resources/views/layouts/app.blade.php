@@ -14,9 +14,9 @@
 <body>
     
     <header>
-        <nav class="navbar sticky-top navbar-light bg-light">
+        <nav class="navbar sticky-top navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Sticky</a>
+                <a class="navbar-brand" href="#"></a>
             </div>
         </nav>
     </header>  
